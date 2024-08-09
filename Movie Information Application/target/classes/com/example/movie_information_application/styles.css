@@ -1,0 +1,56 @@
+/* General styling for the application */
+.root {
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+/* Styling for the text fields */
+.text-field {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #cccccc;
+    -fx-padding: 0 10px;
+}
+
+/* Styling for the button */
+.button {
+    -fx-background-color: #6200ea;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.button:hover {
+    -fx-background-color: #3700b3;
+}
+
+/* Styling for the labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 0;
+}
+
+/* Styling for the ImageView */
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+    -fx-background-radius: 10px;
+    -fx-padding: 10px;
+    -fx-background-color: #ffffff;
+}
+
+/* Styling for VBox container */
+.vbox {
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+}

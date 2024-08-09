@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<?import java.net.URL?>
+<VBox xmlns="http://javafx.com/javafx/17.0.6"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.movie_information_application.HelloController">
+
+    <!-- Reference the CSS file correctly -->
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+
+    <TextField fx:id="movieTitleField" promptText="Enter movie title" />
+    <Button text="Fetch Movie Info" onAction="#onFetchButtonClick" />
+    <Label fx:id="titleLabel" text="Movie Title" />
+    <Label fx:id="releaseDateLabel" text="Release Date" />
+    <Label fx:id="ratingLabel" text="Rating" />
+    <Label fx:id="plotLabel" text="Plot" />
+    <ImageView fx:id="posterImageView" fitWidth="200" fitHeight="300" />
+</VBox>
